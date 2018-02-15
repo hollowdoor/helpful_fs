@@ -1,0 +1,41 @@
+{
+  "name": "helpful-fs",
+  "version": "1.0.0",
+  "description": "Helpful file system operations",
+  "main": "index.js",
+  "jsnext:main": "src.js",
+  "module": "src.js",
+  "scripts": {
+    "build": "node build.js",
+    "pretest": "npm run build",
+    "test": "mocha"
+  },
+  "keywords": [
+    "fs",
+    "files",
+    "read",
+    "write"
+  ],
+  "author": "Quentin Engles <hollowdoor99@gmail.com> (https://hollowdoor.github.io/)",
+  "license": "MIT",
+  "devDependencies": {
+    "mocha": "^5.0.1",
+    "rollup": "^0.56.0"
+  },
+  "dependencies": {
+    "bluebird": "^3.5.1",
+    "js-yaml": "^3.10.0",
+    "make-dir": "^1.1.0"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hollowdoor/helpful_fs.git"
+  },
+  "bugs": {
+    "url": "https://github.com/hollowdoor/helpful_fs/issues"
+  },
+  "homepage": "https://github.com/hollowdoor/helpful_fs#readme"
+}
